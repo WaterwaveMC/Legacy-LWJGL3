@@ -3,7 +3,7 @@ Patched version of LWJGL for NanoVG to work with LWJGL2.
 
 ## Usage
 ```groovy
-# Add the Jitpack repository
+// Add the Jitpack repository
 repositories {
     maven {
         name = 'Jitpack'
@@ -11,7 +11,7 @@ repositories {
     }
 }
 
-# Add Legacy-LWJGL3 to your dependencies
+// Add Legacy-LWJGL3 to your dependencies
 dependencies {
     implementation 'io.waterwave:Legacy-LWJGL3:3.1.1'
 }
