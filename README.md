@@ -13,7 +13,7 @@ repositories {
 
 // Add Legacy-LWJGL3 to your dependencies
 dependencies {
-    implementation 'io.waterwave:Legacy-LWJGL3:3.1.1'
+    implementation 'io.waterwave:Legacy-LWJGL3:3.1.1' // Update this to work with your version
 }
 ```
 
