@@ -54,6 +54,10 @@ def mods = [
     'zstd'
 ]
 
+tasks.register('assemble') {
+    println("Nothing to assemble here, move along.")
+}
+
 publishing {
     publications {
         mods.each {
