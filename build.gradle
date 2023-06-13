@@ -17,315 +17,315 @@ publishing {
             groupId = groupId_
             artifactId = artifactId_
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId_}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId_}-${version_}.jar")
         }
 
         assimp(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-assimp"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         bgfx(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-bgfx"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         cuda(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-cuda"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         egl(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-egl"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         fmod(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-fmod"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         freetype(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-freetype"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         glfw(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-glfw"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         harfbuzz(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-harfbuzz"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         hwloc(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-hwloc"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         jawt(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-jawt"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         jemalloc(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-jemalloc"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         ktx(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-ktx"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         libdivide(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-libdivide"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         llvm(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-llvm"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         lmdb(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-lmdb"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         lz4(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-lz4"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         meow(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-meow"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         meshoptimizer(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-meshoptimizer"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         nanovg(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-nanovg"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         nfd(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-nfd"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         nuklear(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-nuklear"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         odbc(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-odbc"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         openal(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-openal"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         opencl(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-opencl"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         opengl(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-opengl"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         opengles(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-opengles"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         openvr(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-openvr"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         openxr(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-openxr"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         opus(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-opus"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         par(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-par"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         remotery(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-remotery"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         rpmalloc(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-rpmalloc"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         shaderc(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-shaderc"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         spvc(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-spvc"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         sse(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-sse"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         stb(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-stb"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         tinyexr(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-tinyexr"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         tinyfd(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-tinyfd"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         tootle(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-tootle"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         vma(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-vma"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         vulkan(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-vulkan"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         xxhash(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-xxhash"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         yoga(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-yoga"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
 
         zstd(MavenPublication) {
             groupId = groupId_
             artifactId = artifactId_ + "-zstd"
             version = version_ + "-${patch}"
-            artifact("artifacts/${version_}/${artifactId}-${version_}.jar")
+            artifact("artifacts/${version}/${artifactId}-${version_}.jar")
         }
     }
 }
