@@ -1,0 +1,72 @@
+plugins {
+    id 'maven-publish'
+}
+
+def groupId_ = 'io.waterwave'
+def artifactId_ = 'Legacy-LWJGL'
+def version_ = '3.3.2'
+
+def mods = [
+    '',
+    'assimp',
+    'bgfx',
+    'cuda',
+    'egl',
+    'fmod',
+    'freetype',
+    'glfw',
+    'harfbuzz',
+    'hwloc',
+    'jawt',
+    'jermalloc',
+    'ktx',
+    'libdivide',
+    'llvm',
+    'lmbd',
+    'lz4',
+    'meow',
+    'meshoptimizer',
+    'nanovg',
+    'nfd',
+    'nuklear',
+    'odbc',
+    'openal',
+    'opencl',
+    'opengl',
+    'opengles',
+    'openvr',
+    'openxr',
+    'opus',
+    'par',
+    'remotery',
+    'rpmalloc',
+    'shaderc',
+    'spvc',
+    'sse',
+    'stb',
+    'tinyexr',
+    'tinyfd',
+    'tootle',
+    'vma',
+    'vulkan',
+    'xxhash',
+    'yoga',
+    'zstd'
+]
+
+publishing {
+    publications {
+        mods.each {
+            maven(MavenPublication) {
+                groupId = groupId_
+                artifactId = artifactId_ + (it == '' ? '' : "-${it}")
+                version = version_
+
+                if(it == '')
+                    artifact("artifacts/${version_}/${artifactId_}-${version_}.jar")
+                else
+                    artifact("artifacts/${version_}/${artifactId_}-${it}-${version_}.jar")
+            }
+        }
+    }
+}
