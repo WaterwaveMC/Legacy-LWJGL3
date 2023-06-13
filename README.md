@@ -14,13 +14,13 @@ repositories {
 // Define LWJGL and Legacy-LWJGL versions
 // Update this to use the latest version/patch
 def lwjglVersion = '3.3.2' // LWJGL3 version, see the GitHub releases page for versions patched
-def legacyLwjglPatch = '2' // Legacy-LWJGL3 patch, you should always use the latest patch
+def legacyLwjglPatch = '3' // Legacy-LWJGL3 patch, you should always use the latest patch
 
 // Add Legacy-LWJGL3 to your dependencies
 dependencies {
-    implementation "io.waterwave:Legacy-LWJGL3:${lwjglVersion}-${legacyLwjglPatch}" // core (required, what did you expect?)
-    implementation "io.waterwave:Legacy-LWJGL3-stb:${lwjglVersion}-${legacyLwjglPatch}" // stb (required for nanovg)
-    implementation "io.waterwave:Legacy-LWJGL3-nanovg:${lwjglVersion}-${legacyLwjglPatch}" // nanovg
+    implementation "io.waterwave:Legacy-LWJGL:${lwjglVersion}-${legacyLwjglPatch}" // core (required, what did you expect?)
+    implementation "io.waterwave:Legacy-LWJGL-stb:${lwjglVersion}-${legacyLwjglPatch}" // stb (required for nanovg)
+    implementation "io.waterwave:Legacy-LWJGL-nanovg:${lwjglVersion}-${legacyLwjglPatch}" // nanovg
 }
 ```
 
