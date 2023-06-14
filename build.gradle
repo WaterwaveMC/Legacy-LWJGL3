@@ -3,9 +3,9 @@ plugins {
 }
 
 def groupId_ = 'io.waterwave'
-def artifactId_ = 'Legacy-LWJGL'
+def artifactId_ = 'lwjgl'
 def version_ = '3.3.2'
-def patch = '3'
+def patch = '4'
 
 tasks.register('assemble') {
     println("Nothing to assemble here, move along.")
