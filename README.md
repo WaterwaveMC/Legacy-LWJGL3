@@ -18,7 +18,7 @@ def legacyLwjglPatch = '5' // Legacy-LWJGL3 patch, you should always use the lat
 
 // Add Legacy-LWJGL3 to your dependencies
 dependencies {
-    implementation "io.waterwave.Legacy-LWJGL3:lwjgl-${lwjglVersion}-${legacyLwjglPatch}" // core (required, what did you expect?)
+    implementation "io.waterwave.Legacy-LWJGL3:lwjgl:${lwjglVersion}-${legacyLwjglPatch}" // core (required, what did you expect?)
     implementation "io.waterwave.Legacy-LWJGL3:lwjgl-stb:${lwjglVersion}-${legacyLwjglPatch}" // stb (required for nanovg)
     implementation "io.waterwave.Legacy-LWJGL3:lwjgl-nanovg:${lwjglVersion}-${legacyLwjglPatch}" // nanovg
 }
